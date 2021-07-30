@@ -30,5 +30,8 @@ spec:
             - summer-k8s-mapping
       steps:
       - setWeight: 30
+      - pause: { duration: 30s } # 30 seconds
       - setWeight: 60
-      - setWeight: 100 
+      - pause: { duration: 30s } # 30 seconds
+      - setWeight: 100
+      - pause: { duration: 30s } # 30 seconds
